@@ -8,5 +8,8 @@ public class TiposVariaveis {
         boolean existe = true;
         String name = "Athena";
         byte idade = 18;
+
+        final double PI = 3.14159;
+
     }
 }
