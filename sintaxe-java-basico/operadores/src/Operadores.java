@@ -14,8 +14,25 @@ public class Operadores {
 
         // aula 3
         int numero = 5;
-        numero = -numero;
 
+        numero = -numero;
         System.out.println(numero);
+
+        // aula 4
+        int num = 4;
+
+        num += 3;
+        System.out.println(num);
+        num++;
+        System.out.println(num);
+        num--;
+        System.out.println(num);
+
+        boolean variavel = true;
+        System.out.println(!variavel);
+        System.out.println(variavel);
+        variavel = !variavel;
+        System.out.println(variavel);
+
     }
 }
