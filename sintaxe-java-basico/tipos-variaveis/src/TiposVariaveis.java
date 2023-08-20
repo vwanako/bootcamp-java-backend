@@ -11,5 +11,7 @@ public class TiposVariaveis {
 
         final double PI = 3.14159;
 
+        System.out.println(salario + name + idade + letra + existe + idade + views + altura + PI);
+
     }
 }
