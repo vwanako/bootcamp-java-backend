@@ -34,5 +34,16 @@ public class Operadores {
         variavel = !variavel;
         System.out.println(variavel);
 
+        // aula 5
+        int a, b;
+        a = 5;
+        b = 6;
+
+        String resultado = a == b ? "verdadeiro" : "falso";
+        System.out.println(resultado);
+
+        a = 6;
+        resultado = a == b ? "verdadeiro" : "falso";
+        System.out.println(resultado);
     }
 }
