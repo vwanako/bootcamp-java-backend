@@ -45,5 +45,23 @@ public class Operadores {
         a = 6;
         resultado = a == b ? "verdadeiro" : "falso";
         System.out.println(resultado);
+
+        // aula 6
+        int num1 = 1, num2 = 2;
+
+        boolean simNao = num1 == num2;
+        System.out.println("num1 é igual a num2? " + simNao);
+        if (num1 == num2)
+            System.out.println("a condição é verdadeira!");
+
+        simNao = num1 > num2;
+        System.out.println("num1 é maior que num2? " + simNao);
+
+        String nomeUm = "Athena";
+        String nomeDois = new String("Athena");
+
+        System.out.println(nomeUm == nomeDois);
+        System.out.println(nomeUm.equals(nomeDois));
+
     }
 }
