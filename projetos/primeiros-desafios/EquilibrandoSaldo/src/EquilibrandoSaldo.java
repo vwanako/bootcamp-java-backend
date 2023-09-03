@@ -8,10 +8,10 @@ public class EquilibrandoSaldo {
         double valorDeposito = scanner.nextDouble();
         double valorRetirada = scanner.nextDouble();
 
-        // TODO: Calcular o saldo atualizado de acordo com a descrição deste desafio.
+        // Calcular o saldo atualizado de acordo com a descrição deste desafio.
         saldoAtual = saldoAtual + valorDeposito - valorRetirada;
 
-        // TODO: Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
+        // Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
         String saldoFormatado = String.format("%.1f", saldoAtual);
         System.out.println("Saldo atualizado na conta: " + saldoFormatado);
 

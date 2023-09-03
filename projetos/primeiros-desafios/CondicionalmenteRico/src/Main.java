@@ -8,7 +8,7 @@ public class Main {
     int saldoTotal = scanner.nextInt();
     int valorSaque = scanner.nextInt();
 
-    // TODO: Criar as condições necessárias para impressão da saída, vide tabela de
+    // Criar as condições necessárias para impressão da saída, vide tabela de
     // exemplos.
     if (valorSaque <= saldoTotal) {
       saldoTotal -= valorSaque;

@@ -17,10 +17,10 @@ public class BancoOrganizadorAtivos {
             ativos.add(codigoAtivo);
         }
 
-        // TODO: Ordenar os ativos em ordem alfabética.
+        // Ordenar os ativos em ordem alfabética.
         Collections.sort(ativos);
 
-        // TODO: Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
+        // Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
         for (int i = 0; i < quantidadeAtivos; i++) {
             System.out.println(ativos.get(i)); // Use .get(i) to access elements
         }
