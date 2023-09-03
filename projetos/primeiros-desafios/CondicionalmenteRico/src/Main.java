@@ -17,5 +17,6 @@ public class Main {
       System.out.println("Saldo insuficiente. Saque nao realizado!");
     }
 
+    scanner.close();
   }
 }
