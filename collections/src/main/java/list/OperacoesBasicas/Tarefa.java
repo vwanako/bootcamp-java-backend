@@ -1,7 +1,8 @@
 package main.java.list.OperacoesBasicas;
 
 public class Tarefa {
-  //atributo
+
+  // atributo
   private String descricao;
 
   public Tarefa(String descricao) {
@@ -14,6 +15,6 @@ public class Tarefa {
 
   @Override
   public String toString() {
-    return  descricao;
+    return descricao;
   }
 }
