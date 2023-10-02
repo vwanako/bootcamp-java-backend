@@ -4,48 +4,48 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SomaNumeros {
-  //atributos
+  // atributos
   private List<Integer> numeros;
 
-  //construtor
   public SomaNumeros() {
     this.numeros = new ArrayList<>();
   }
 
   public void adicionarNumero(int numero) {
-    this.numeros.add(numero);
+    numeros.add(numero);
   }
 
   public int calcularSoma() {
     int soma = 0;
-    for (Integer numero : numeros)
-      soma += numero;
+    for (Integer i : numeros) {
+      soma += i;
+    }
     return soma;
   }
 
   public int encontrarMaiorNumero() {
-    int maiorNumero = Integer.MIN_VALUE;
     if (!numeros.isEmpty()) {
-      for (Integer numero : numeros) {
-        if (numero >= maiorNumero) {
-          maiorNumero = numero;
+      int maior = Integer.MIN_VALUE;
+      for (Integer i : numeros) {
+        if (i >= maior) {
+          maior = i;
         }
       }
-      return maiorNumero;
+      return maior;
     } else {
       throw new RuntimeException("A lista está vazia!");
     }
   }
 
   public int encontrarMenorNumero() {
-    int menorNumero = Integer.MAX_VALUE;
     if (!numeros.isEmpty()) {
-      for (Integer numero : numeros) {
-        if (numero <= menorNumero) {
-          menorNumero = numero;
+      int menor = Integer.MAX_VALUE;
+      for (Integer i : numeros) {
+        if (i <= menor) {
+          menor = i;
         }
       }
-      return menorNumero;
+      return menor;
     } else {
       throw new RuntimeException("A lista está vazia!");
     }
